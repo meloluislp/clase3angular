@@ -1,0 +1,14 @@
+<form action="">
+    <label for="name">Nombre</label>
+    <input type="text" name="name" id="name" [(ngModel)]="name">
+    <br>
+    <label for="price">Precio</label>
+    <input type="text" name="price" id="price" [(ngModel)]="price">
+    <br>
+
+    <label for="description">Descripción</label>
+    <input type="text" name="description" id="description" [(ngModel)]="description">
+    <br>
+
+    <button (click)="addProduct()">Agregar</button>
+</form>
